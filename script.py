@@ -22,21 +22,6 @@ class Customer:
                 
     def request(self,flow: http.HTTPFlow) -> None:
         self.m.run_request(flow)
-    
-    def websocket_handshake(self, f):
-        pass
-
-    def websocket_start(self, flow):
-        pass
-
-    def websocket_message(self, flow):
-        pass
-
-    def websocket_error(self, flow):
-        pass
-
-    def websocket_end(self, flow):
-        pass
 
 
 def start():
