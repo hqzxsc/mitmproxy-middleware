@@ -6,15 +6,13 @@
 @author: Lieb
 @contact: 2750416737@qq.com
 @software: PyCharm
-@file: db_util.py
+@file: start_proxy.py
 @time: 2017/6/19 11:09
 """
 
 import subprocess
 import signal
 from conf import config
-
-config.MIDDLEWARE_CLASS.pop(0)
 
 
 def main():
